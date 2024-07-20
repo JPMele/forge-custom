@@ -1,0 +1,7 @@
+Name:Kor Weaponmaster
+ManaCost:R W
+Types:Creature Kor Warrior
+PT:1/2
+S:Mode$ CastWithFlash | ValidSA$ Activated.Equip | Caster$ You | Description$ You may activate equip abilities any time you could cast an instant.
+S:Mode$ ReduceCost | ValidCard$ Card | ValidSpell$ Activated.Equip | Activator$ You | Amount$ 1 | Description$ Equip abilities you activate cost {1} less to activate.
+Oracle:You may activate equip abilities any time you could cast an instant.\nEquip abilities you activate cost {1} less to activate.
